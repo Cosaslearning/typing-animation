@@ -1,0 +1,43 @@
+/*-----------------  GOOGLE FONTS  -----------------*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+/*-----------------  VARIABLES  -----------------*/
+:root {
+    /* Colors */ 
+    --white_color: rgb(255, 255, 255);
+    --Keshri_color: rgb(255, 153, 51);
+}
+/*-----------------  Base  -----------------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    color: var(--white_color);
+}
+/*-----------------  Styling Start  -----------------*/
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Keshri_color);
+}
+.image {
+    width: 30rem;
+    height: 30rem;
+    background-color: var(--white_color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/Shri-ram-1.png');
+    border-radius: 1rem;
+    transition: 3s;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.image:hover {
+    background-image: url('images/Shri-ram-2.png');
+}
+
+ 
